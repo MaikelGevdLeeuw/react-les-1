@@ -1,0 +1,101 @@
+
+h1 {
+    color: rgb(189,76,41);
+    text-align: center;
+    margin: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+h4 {
+    color: rgb(189,76,41);
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 150px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+button {
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(189,76,41);
+    background-color: white;
+    min-width: 200px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+main > * {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+
+.tile {
+    background-color: rgb(245,243,238);
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+.div{
+    display: flex;
+}
+
+.tile img{
+    width: 600px;
+    height: 600px;
+}
+
+.product {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.product img{
+    padding-bottom: 50px;
+}
+
+.product-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(189,76,41);
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+}
